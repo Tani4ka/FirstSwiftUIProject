@@ -1,6 +1,7 @@
-#disabled_rules:
-#- trailing_whitespace
-#
+disabled_rules:
+- trailing_whitespace
+- vertical_whitespace
+
 #opt_in_rules:
 #- empty_count
 #- empty_string
@@ -11,7 +12,7 @@
 #- SwiftLint/Common/3rdPartyLib
 
 line_length:
-    warning: 150
+    warning: 160
     error: 200
     ignores_function_declarations: true
     ignores_comments: true

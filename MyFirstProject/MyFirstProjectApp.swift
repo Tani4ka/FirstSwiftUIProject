@@ -16,7 +16,8 @@ struct MyFirstProjectApp: App {
 //            ListView()
 //            NavigationViewForm()
 //            TabViewCalcAlerts()
-            AppGessFlag()
+//            AppGessFlag()
+            NavigationLinkSheet()
         }
     }
 }

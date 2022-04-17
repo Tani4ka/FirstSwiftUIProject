@@ -13,7 +13,9 @@
 		222EEBF227C3995300976A46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222EEBF127C3995300976A46 /* Preview Assets.xcassets */; };
 		22987F3827C6401E00EDE741 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22987F3727C6401E00EDE741 /* ListView.swift */; };
 		22FAB85527C5223100DAF7DB /* StatesGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAB85427C5223100DAF7DB /* StatesGestures.swift */; };
+		B8398175280C895F0013EB77 /* NavigationLinkSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8398174280C895F0013EB77 /* NavigationLinkSheet.swift */; };
 		B8AFC66C2801A99B00024CAD /* NavigationViewForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AFC66B2801A99B00024CAD /* NavigationViewForm.swift */; };
+		B8B4B5B4280C5572009DB972 /* Modifires.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B4B5B3280C5572009DB972 /* Modifires.swift */; };
 		B8B828752808A1ED00B2FFA3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = B8B828742808A1ED00B2FFA3 /* .swiftlint.yml */; };
 		B8C4175528099FC100716ECE /* AppGessFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C4175428099FC100716ECE /* AppGessFlag.swift */; };
 		B8D6F999280473BA00A17148 /* TabViewCalcAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6F998280473BA00A17148 /* TabViewCalcAlerts.swift */; };
@@ -27,7 +29,9 @@
 		222EEBF127C3995300976A46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22987F3727C6401E00EDE741 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		22FAB85427C5223100DAF7DB /* StatesGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesGestures.swift; sourceTree = "<group>"; };
+		B8398174280C895F0013EB77 /* NavigationLinkSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkSheet.swift; sourceTree = "<group>"; };
 		B8AFC66B2801A99B00024CAD /* NavigationViewForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewForm.swift; sourceTree = "<group>"; };
+		B8B4B5B3280C5572009DB972 /* Modifires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifires.swift; sourceTree = "<group>"; };
 		B8B828742808A1ED00B2FFA3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		B8C4175428099FC100716ECE /* AppGessFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGessFlag.swift; sourceTree = "<group>"; };
 		B8D6F998280473BA00A17148 /* TabViewCalcAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewCalcAlerts.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				B8D6F998280473BA00A17148 /* TabViewCalcAlerts.swift */,
 				22987F3727C6401E00EDE741 /* ListView.swift */,
 				B8C4175428099FC100716ECE /* AppGessFlag.swift */,
+				B8B4B5B3280C5572009DB972 /* Modifires.swift */,
+				B8398174280C895F0013EB77 /* NavigationLinkSheet.swift */,
 				222EEBEE27C3995300976A46 /* Assets.xcassets */,
 				222EEBF027C3995300976A46 /* Preview Content */,
 			);
@@ -178,10 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8398175280C895F0013EB77 /* NavigationLinkSheet.swift in Sources */,
 				222EEBED27C3995000976A46 /* ContentView.swift in Sources */,
 				22987F3827C6401E00EDE741 /* ListView.swift in Sources */,
 				B8C4175528099FC100716ECE /* AppGessFlag.swift in Sources */,
 				222EEBEB27C3995000976A46 /* MyFirstProjectApp.swift in Sources */,
+				B8B4B5B4280C5572009DB972 /* Modifires.swift in Sources */,
 				B8AFC66C2801A99B00024CAD /* NavigationViewForm.swift in Sources */,
 				22FAB85527C5223100DAF7DB /* StatesGestures.swift in Sources */,
 				B8D6F999280473BA00A17148 /* TabViewCalcAlerts.swift in Sources */,
