@@ -17,7 +17,12 @@ struct MyFirstProjectApp: App {
 //            NavigationViewForm()
 //            TabViewCalcAlerts()
 //            AppGessFlag()
-            NavigationLinkSheet()
+//            NavigationLinkSheet()
+//            UserDefaults()
+//            AppMyWastes()
+//            Animation()
+//            CustomTabBar()
+            RegistrationPage()
         }
     }
 }
