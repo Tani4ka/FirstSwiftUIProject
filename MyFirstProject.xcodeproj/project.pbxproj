@@ -13,11 +13,14 @@
 		222EEBF227C3995300976A46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222EEBF127C3995300976A46 /* Preview Assets.xcassets */; };
 		22987F3827C6401E00EDE741 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22987F3727C6401E00EDE741 /* ListView.swift */; };
 		22FAB85527C5223100DAF7DB /* StatesGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAB85427C5223100DAF7DB /* StatesGestures.swift */; };
+		B83165AB281C0FEB006FBC75 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83165AA281C0FEB006FBC75 /* MainMenu.swift */; };
 		B8398175280C895F0013EB77 /* NavigationLinkSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8398174280C895F0013EB77 /* NavigationLinkSheet.swift */; };
 		B83F1FA22812FBF200B73031 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83F1FA12812FBF200B73031 /* Animation.swift */; };
 		B843833F281478DA005ED69F /* RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B843833E281478DA005ED69F /* RegistrationPage.swift */; };
 		B8AFC66C2801A99B00024CAD /* NavigationViewForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AFC66B2801A99B00024CAD /* NavigationViewForm.swift */; };
+		B8B39426281D40C80008F2FE /* JsonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B39425281D40C80008F2FE /* JsonAPI.swift */; };
 		B8B4B5B4280C5572009DB972 /* Modifires.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B4B5B3280C5572009DB972 /* Modifires.swift */; };
+		B8B50816281EB3040058402E /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B50815281EB3040058402E /* ContextMenu.swift */; };
 		B8B828752808A1ED00B2FFA3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = B8B828742808A1ED00B2FFA3 /* .swiftlint.yml */; };
 		B8C4175528099FC100716ECE /* AppGessFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C4175428099FC100716ECE /* AppGessFlag.swift */; };
 		B8C715B728145977000B3701 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C715B628145977000B3701 /* CustomTabBar.swift */; };
@@ -35,11 +38,14 @@
 		222EEBF127C3995300976A46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22987F3727C6401E00EDE741 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		22FAB85427C5223100DAF7DB /* StatesGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesGestures.swift; sourceTree = "<group>"; };
+		B83165AA281C0FEB006FBC75 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		B8398174280C895F0013EB77 /* NavigationLinkSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkSheet.swift; sourceTree = "<group>"; };
 		B83F1FA12812FBF200B73031 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		B843833E281478DA005ED69F /* RegistrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPage.swift; sourceTree = "<group>"; };
 		B8AFC66B2801A99B00024CAD /* NavigationViewForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewForm.swift; sourceTree = "<group>"; };
+		B8B39425281D40C80008F2FE /* JsonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonAPI.swift; sourceTree = "<group>"; };
 		B8B4B5B3280C5572009DB972 /* Modifires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifires.swift; sourceTree = "<group>"; };
+		B8B50815281EB3040058402E /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		B8B828742808A1ED00B2FFA3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		B8C4175428099FC100716ECE /* AppGessFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGessFlag.swift; sourceTree = "<group>"; };
 		B8C715B628145977000B3701 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
@@ -95,6 +101,9 @@
 				B83F1FA12812FBF200B73031 /* Animation.swift */,
 				B8C715B628145977000B3701 /* CustomTabBar.swift */,
 				B843833E281478DA005ED69F /* RegistrationPage.swift */,
+				B83165AA281C0FEB006FBC75 /* MainMenu.swift */,
+				B8B39425281D40C80008F2FE /* JsonAPI.swift */,
+				B8B50815281EB3040058402E /* ContextMenu.swift */,
 				222EEBEE27C3995300976A46 /* Assets.xcassets */,
 				222EEBF027C3995300976A46 /* Preview Content */,
 			);
@@ -205,11 +214,14 @@
 				B8398175280C895F0013EB77 /* NavigationLinkSheet.swift in Sources */,
 				B8C99622280EFB59002EB4B1 /* AddWastesView.swift in Sources */,
 				B8C715B728145977000B3701 /* CustomTabBar.swift in Sources */,
+				B83165AB281C0FEB006FBC75 /* MainMenu.swift in Sources */,
+				B8B50816281EB3040058402E /* ContextMenu.swift in Sources */,
 				222EEBED27C3995000976A46 /* ContentView.swift in Sources */,
 				22987F3827C6401E00EDE741 /* ListView.swift in Sources */,
 				B8C4175528099FC100716ECE /* AppGessFlag.swift in Sources */,
 				222EEBEB27C3995000976A46 /* MyFirstProjectApp.swift in Sources */,
 				B8B4B5B4280C5572009DB972 /* Modifires.swift in Sources */,
+				B8B39426281D40C80008F2FE /* JsonAPI.swift in Sources */,
 				B8D65A7D280DC87B0062A748 /* UserDefaults.swift in Sources */,
 				B8AFC66C2801A99B00024CAD /* NavigationViewForm.swift in Sources */,
 				B843833F281478DA005ED69F /* RegistrationPage.swift in Sources */,

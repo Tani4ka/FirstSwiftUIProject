@@ -24,7 +24,7 @@ struct RegistrationPage: View {
                     Login(index: self.$index)
                 }
                 
-                /// OR with lines
+                /// OR
                 HStack(spacing: 15) {
                     Rectangle()
                     .fill(Color("Color1"))
@@ -49,7 +49,6 @@ struct RegistrationPage: View {
                             .renderingMode(.original)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 50, height: 50)
-                            .foregroundColor(.black)
                             .clipShape(Circle())
                     }
                     Button {
@@ -60,7 +59,6 @@ struct RegistrationPage: View {
                             .renderingMode(.original)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 50, height: 50)
-                            .foregroundColor(.black)
                             .clipShape(Circle())
                     }
                     Button {
@@ -78,6 +76,7 @@ struct RegistrationPage: View {
                 .padding(.top, 30)
             }
             .padding(.vertical)
+            .padding(.top, 50)
         }
         .background(Color("Color")).edgesIgnoringSafeArea(.all)
         .preferredColorScheme(.dark)
@@ -88,6 +87,9 @@ struct RegistrationPage: View {
 struct RegistrationPage_Previews: PreviewProvider {
     static var previews: some View {
         RegistrationPage()
+            .previewInterfaceOrientation(.portraitUpsideDown)
+            .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+                       .previewDisplayName("iPhone 12")
     }
 }
 
@@ -136,9 +138,7 @@ struct Login: View {
                             .fill(self.index == 0 ? Color.blue : Color.clear)
                             .frame(width: 100, height: 5)
                     }
-                    
                     Spacer()
-                    
                 } .padding(.top, 30)
                 
                 VStack {

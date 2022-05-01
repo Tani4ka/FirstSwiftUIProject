@@ -22,7 +22,10 @@ struct MyFirstProjectApp: App {
 //            AppMyWastes()
 //            Animation()
 //            CustomTabBar()
-            RegistrationPage()
+//            RegistrationPage()
+//            MainMenu()
+//            JsonAPI()
+            ContextMenu()
         }
     }
 }

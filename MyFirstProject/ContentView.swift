@@ -84,3 +84,17 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+
+/// Preview
+//struct RegistrationPage_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RegistrationPage()
+//            .previewInterfaceOrientation(.portraitUpsideDown)
+//            .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+//                       .previewDisplayName("iPhone 12")
+//        RegistrationPage()
+//            .previewInterfaceOrientation(.portraitUpsideDown)
+//            .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro Max"))
+//                       .previewDisplayName("iPhone 12 Pro Max")
+//    }
+//}
